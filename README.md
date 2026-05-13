@@ -1,2 +1,2 @@
 # FarmaciaWeb
-repository for TSW project farmaciaWeb
+repository for TSW project farmaciaWeb ecommerce
