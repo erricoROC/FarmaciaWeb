@@ -27,7 +27,11 @@ public class UtenteBean implements Serializable
 	    
 	    
 	    
-	    
+	    public UtenteBean()
+	    {
+	    	
+	    	
+	    }
 	    
 	    
 	    
