@@ -19,9 +19,13 @@ public class UtenteBean implements Serializable
 	    private String passwordHash;
 	    private String telefono;
 	    private String indirizzoSpedizione;
-	    private String citta;
-	    private String cap;
-	    private String prov;
+	    
+	    private int nCiv;
+	    
+	    private String provSpedizione;
+	        private String capSpedizione;
+	        private String cittaSpedizione;
+	        
 	    private LocalDate dataRegistrazione;
 	    private String ruolo;
 	    
@@ -37,7 +41,7 @@ public class UtenteBean implements Serializable
 	    
 	    
 		public UtenteBean(int idUtente, String nome, String cognome, String email, String passwordHash, String telefono,
-				String indirizzoSpedizione, String citta, String cap, String prov, LocalDate dataRegistrazione,
+				String indirizzoSpedizione, String citta, String cap, String prov,int nCiv, LocalDate dataRegistrazione,
 				String ruolo)
 		{
 			
@@ -48,9 +52,12 @@ public class UtenteBean implements Serializable
 			this.passwordHash = passwordHash;
 			this.telefono = telefono;
 			this.indirizzoSpedizione = indirizzoSpedizione;
-			this.citta = citta;
-			this.cap = cap;
-			this.prov = prov;
+			this.nCiv=nCiv;
+			this.cittaSpedizione = citta;
+			
+			this.capSpedizione = cap;
+			
+			this.provSpedizione = prov;
 			this.dataRegistrazione = dataRegistrazione;
 			this.ruolo = ruolo;
 		}
@@ -99,22 +106,22 @@ public class UtenteBean implements Serializable
 			this.indirizzoSpedizione = indirizzoSpedizione;
 		}
 		public String getCitta() {
-			return citta;
+			return cittaSpedizione;
 		}
 		public void setCitta(String citta) {
-			this.citta = citta;
+			this.cittaSpedizione = citta;
 		}
 		public String getCap() {
-			return cap;
+			return capSpedizione;
 		}
 		public void setCap(String cap) {
-			this.cap = cap;
+			this.capSpedizione = cap;
 		}
 		public String getProv() {
-			return prov;
+			return provSpedizione;
 		}
 		public void setProv(String prov) {
-			this.prov = prov;
+			this.provSpedizione = prov;
 		}
 		public LocalDate getDataRegistrazione() {
 			return dataRegistrazione;
@@ -127,6 +134,20 @@ public class UtenteBean implements Serializable
 		}
 		public void setRuolo(String ruolo) {
 			this.ruolo = ruolo;
+		}
+
+
+
+
+		public int getnCiv() {
+			return nCiv;
+		}
+
+
+
+
+		public void setnCiv(int nCiv) {
+			this.nCiv = nCiv;
 		}
 	
 	
