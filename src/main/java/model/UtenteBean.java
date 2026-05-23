@@ -16,7 +16,7 @@ public class UtenteBean implements Serializable
 	    private String nome;
 	    private String cognome;
 	    private String email;
-	    private String passwordHash;
+	    private String password;
 	    private String telefono;
 	    private String indirizzoSpedizione;
 	    
@@ -40,7 +40,7 @@ public class UtenteBean implements Serializable
 	    
 	    
 	    
-		public UtenteBean(int idUtente, String nome, String cognome, String email, String passwordHash, String telefono,
+		public UtenteBean(int idUtente, String nome, String cognome, String email, String password, String telefono,
 				String indirizzoSpedizione, String citta, String cap, String prov,int nCiv, LocalDate dataRegistrazione,
 				String ruolo)
 		{
@@ -49,7 +49,7 @@ public class UtenteBean implements Serializable
 			this.nome = nome;
 			this.cognome = cognome;
 			this.email = email;
-			this.passwordHash = passwordHash;
+			this.password = password;
 			this.telefono = telefono;
 			this.indirizzoSpedizione = indirizzoSpedizione;
 			this.nCiv=nCiv;
@@ -87,11 +87,11 @@ public class UtenteBean implements Serializable
 		public void setEmail(String email) {
 			this.email = email;
 		}
-		public String getPasswordHash() {
-			return passwordHash;
+		public String getPassword() {
+			return password;
 		}
-		public void setPasswordHash(String passwordHash) {
-			this.passwordHash = passwordHash;
+		public void setPassword(String password) {
+			this.password = password;
 		}
 		public String getTelefono() {
 			return telefono;
@@ -149,9 +149,21 @@ public class UtenteBean implements Serializable
 		public void setnCiv(int nCiv) {
 			this.nCiv = nCiv;
 		}
+
+
+/*
+
+		@Override
+		public String toString() {
+			return "UtenteBean [idUtente=" + idUtente + ", nome=" + nome + ", cognome=" + cognome + ", email=" + email
+					+ ", password=" + password + ", telefono=" + telefono + ", indirizzoSpedizione="
+					+ indirizzoSpedizione + ", nCiv=" + nCiv + ", provSpedizione=" + provSpedizione + ", capSpedizione="
+					+ capSpedizione + ", cittaSpedizione=" + cittaSpedizione + ", dataRegistrazione="
+					+ dataRegistrazione + ", ruolo=" + ruolo + "]";
+		}
 	
 	
-	    
+	  */  
 	    
 	    
 	    
