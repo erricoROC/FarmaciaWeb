@@ -61,79 +61,103 @@ public class UtenteBean implements Serializable
 			this.dataRegistrazione = dataRegistrazione;
 			this.ruolo = ruolo;
 		}
-		
-		
+
+
+
+
 		public int getIdUtente() {
 			return idUtente;
 		}
+
+
+
+
 		public void setIdUtente(int idUtente) {
 			this.idUtente = idUtente;
 		}
+
+
+
+
 		public String getNome() {
 			return nome;
 		}
+
+
+
+
 		public void setNome(String nome) {
 			this.nome = nome;
 		}
+
+
+
+
 		public String getCognome() {
 			return cognome;
 		}
+
+
+
+
 		public void setCognome(String cognome) {
 			this.cognome = cognome;
 		}
+
+
+
+
 		public String getEmail() {
 			return email;
 		}
+
+
+
+
 		public void setEmail(String email) {
 			this.email = email;
 		}
+
+
+
+
 		public String getPassword() {
 			return password;
 		}
+
+
+
+
 		public void setPassword(String password) {
 			this.password = password;
 		}
+
+
+
+
 		public String getTelefono() {
 			return telefono;
 		}
+
+
+
+
 		public void setTelefono(String telefono) {
 			this.telefono = telefono;
 		}
+
+
+
+
 		public String getIndirizzoSpedizione() {
 			return indirizzoSpedizione;
 		}
+
+
+
+
 		public void setIndirizzoSpedizione(String indirizzoSpedizione) {
 			this.indirizzoSpedizione = indirizzoSpedizione;
-		}
-		public String getCitta() {
-			return cittaSpedizione;
-		}
-		public void setCitta(String citta) {
-			this.cittaSpedizione = citta;
-		}
-		public String getCap() {
-			return capSpedizione;
-		}
-		public void setCap(String cap) {
-			this.capSpedizione = cap;
-		}
-		public String getProv() {
-			return provSpedizione;
-		}
-		public void setProv(String prov) {
-			this.provSpedizione = prov;
-		}
-		public LocalDate getDataRegistrazione() {
-			return dataRegistrazione;
-		}
-		public void setDataRegistrazione(LocalDate dataRegistrazione) {
-			this.dataRegistrazione = dataRegistrazione;
-		}
-		public String getRuolo() {
-			return ruolo;
-		}
-		public void setRuolo(String ruolo) {
-			this.ruolo = ruolo;
 		}
 
 
@@ -149,6 +173,85 @@ public class UtenteBean implements Serializable
 		public void setnCiv(int nCiv) {
 			this.nCiv = nCiv;
 		}
+
+
+
+
+		public String getProvSpedizione() {
+			return provSpedizione;
+		}
+
+
+
+
+		public void setProvSpedizione(String provSpedizione) {
+			this.provSpedizione = provSpedizione;
+		}
+
+
+
+
+		public String getCapSpedizione() {
+			return capSpedizione;
+		}
+
+
+
+
+		public void setCapSpedizione(String capSpedizione) {
+			this.capSpedizione = capSpedizione;
+		}
+
+
+
+
+		public String getCittaSpedizione() {
+			return cittaSpedizione;
+		}
+
+
+
+
+		public void setCittaSpedizione(String cittaSpedizione) {
+			this.cittaSpedizione = cittaSpedizione;
+		}
+
+
+
+
+		public LocalDate getDataRegistrazione() {
+			return dataRegistrazione;
+		}
+
+
+
+
+		public void setDataRegistrazione(LocalDate dataRegistrazione) {
+			this.dataRegistrazione = dataRegistrazione;
+		}
+
+
+
+
+		public String getRuolo() {
+			return ruolo;
+		}
+
+
+
+
+		public void setRuolo(String ruolo) {
+			this.ruolo = ruolo;
+		}
+		
+		
+		
+		
+		
+		
+
+
+
 
 
 /*
