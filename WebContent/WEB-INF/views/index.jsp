@@ -8,6 +8,10 @@
 
 
 <title>Farmacia online</title>
+
+<link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/styles/index.css">
+
+
 <!--  
 <meta name="description" content="ecommfarma - Farmacia Online Italiana">
 
@@ -22,24 +26,35 @@
 
 <body>
 
-<h1>Farmacia</h1> <h1>Web</h1>
+<header>
+<div id="headAndButt">
+
+<h1 id="h1Farma">Farma</h1>   <h1>Web</h1> 
+
+<span id="bottAccCarr"> <a href="" id="bottone-accedi">Accedi</a>  <a href="" id="bottone-carrello">Carrello</a></span>
+
+</div>
+
+</header>
 
 
 
 
 
 
-<br><br>
+<section id="ricerca">
 <form action="" method="post">
 
-<input type="text" name="ricerca"     placeholder="Cerca nel Catalogo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Cerca">
+<input   type="text" name="ricerca" id="campoRicerca"  placeholder="Cerca nel Catalogo"  >
+
+<input type="submit" value="Cerca" id="bottCerca">
 
 
 
 
 </form>
 
-
+</section>
 
 
 </body>

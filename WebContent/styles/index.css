@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+header{
+	height:100px;
+	width:100%;
+	font-family:serif;
+	
+	
+	border:thin dotted black;
+	
+	
+	background-color: rgba(10, 25, 47, 0.1);
+}
+
+
+header #headAndButt
+{
+	
+	padding-top:1.5%;
+	
+	
+}
+
+header h1
+{
+	
+	font-style:italic;
+	font-size:2.5rem;
+	
+	color:green;
+	display:inline;
+	
+	
+	
+}
+
+header h1#h1Farma{
+	
+	color:gray;
+	
+	
+	
+}
+
+
+header #bottAccCarr{
+	
+	width:10%;
+	float:right;
+	
+	
+}
+
+
+
+
+header #bottone-accedi {
+    display: inline-block;
+    color: black;         
+    text-decoration: none;   /* Rimuove la sottolineatura di default */
+    background-color:yellow;       
+    cursor: pointer;         /* Mostra la manina al passaggio del mouse */
+    user-select: none;       /* Impedisce la selezione del testo per errore */
+    border:thin solid black;
+    padding:3px;
+}
+
+
+header #bottone-accedi:active {
+    transform: translateY(2px); /* Sposta la scritta in basso di 2 pixel al click */
+}
+
+
+header #bottone-carrello {
+    display: inline-block;
+    color: black; 
+    background-color:yellow;        
+    text-decoration: none;   /* Rimuove la sottolineatura di default */
+           
+    cursor: pointer;         /* Mostra la manina al passaggio del mouse */
+    user-select: none;       /* Impedisce la selezione del testo per errore */
+    border:thin solid black;
+    padding:3px;
+}
+
+
+header #bottone-carrello:active {
+    transform: translateY(2px); /* Sposta la scritta in basso di 2 pixel al click */
+}
+
+
+
+
+section#ricerca{
+	
+	margin-top:200px;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section#ricerca #campoRicerca
+{
+    
+    width: 40% ;       
+    padding: 3px 20px 3px 1px;     
+    font-size: 1.2rem;      /* Ingrandisce il testo e il placeholder */
+    border: thin solid black; /* Bordo visibile */
+    border-radius: 8px;     
+    
+    
+  }
+
+
+
+
+section#ricerca #bottCerca{
+	
+	display: inline-block;
+	width:6% ;
+	padding: 3px 2px 3px 2px;
+	font-size: 1.2rem;      /* Ingrandisce il testo e il placeholder */
+    border: thin solid black; /* Bordo visibile */
+    border-radius: 8px;
+     cursor: pointer; 
+    background-color: yellow; 
+	
+	
+}
+
+
+section#ricerca #bottCerca:active
+{
+	
+	transform: translateY(2px);
+	
+	
+	
+}
+
+
+
+
+
+
+
+
