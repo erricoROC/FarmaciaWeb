@@ -31,7 +31,13 @@
 
 <h1 id="h1Farma">Farma</h1>   <h1>Web</h1> 
 
-<span id="bottAccCarr"> <a href="" id="bottone-accedi">Accedi</a>  <a href="" id="bottone-carrello">Carrello</a></span>
+<span id="bottAccCarr"> <a href="" id="bottone-accedi"> <img id="icona-omino" src="<%=request.getContextPath()%>/images/mio-omino.png" alt="Icona accedi"> Accedi </a> 
+
+
+ <a href="" id="bottone-carrello"><img id="icona-carrello" src="<%=request.getContextPath()%>/images/mio-carrello.png" alt="Icona carrello"> Carrello</a>  
+ 
+ 
+ </span>
 
 </div>
 

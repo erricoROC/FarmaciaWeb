@@ -1,9 +1,22 @@
 @charset "UTF-8";
 
+body
+{
+	
+	font-family:sans-serif;
+	font-size: small;
+	
+	
+}
+
+
+
+
+
 header{
 	height:100px;
 	width:100%;
-	font-family:serif;
+	
 	
 	
 	border:thin dotted black;
@@ -17,7 +30,7 @@ header #headAndButt
 {
 	
 	padding-top:1.5%;
-	
+	padding-bottom: 1.5% ;
 	
 }
 
@@ -25,8 +38,8 @@ header h1
 {
 	
 	font-style:italic;
-	font-size:2.5rem;
-	
+	/*font-size:2.5rem;*/
+	font-size:300% ;
 	color:green;
 	display:inline;
 	
@@ -58,11 +71,11 @@ header #bottone-accedi {
     display: inline-block;
     color: black;         
     text-decoration: none;   /* Rimuove la sottolineatura di default */
-    background-color:yellow;       
+           
     cursor: pointer;         /* Mostra la manina al passaggio del mouse */
     user-select: none;       /* Impedisce la selezione del testo per errore */
-    border:thin solid black;
-    padding:3px;
+    
+    
 }
 
 
@@ -70,18 +83,35 @@ header #bottone-accedi:active {
     transform: translateY(2px); /* Sposta la scritta in basso di 2 pixel al click */
 }
 
+#icona-omino
+{
+	
+	width: 20px; /* Regola la dimensione dell'omino */
+  height: 20px;
+  margin-top:3px ;
+  margin-right: 6px;
+	background-color:yellow;
+	
+	
+}
+
+
+
+
 
 header #bottone-carrello {
     display: inline-block;
     color: black; 
-    background-color:yellow;        
+   
+            
     text-decoration: none;   /* Rimuove la sottolineatura di default */
            
     cursor: pointer;         /* Mostra la manina al passaggio del mouse */
     user-select: none;       /* Impedisce la selezione del testo per errore */
-    border:thin solid black;
-    padding:3px;
+   
+   
 }
+
 
 
 header #bottone-carrello:active {
@@ -89,12 +119,32 @@ header #bottone-carrello:active {
 }
 
 
+#icona-carrello
+{
+	
+	width: 20px; /* Regola la dimensione dell'omino */
+  height: 20px;
+  margin-top:3px ;
+  margin-right: 1px;
+  margin-left:4px ;
+	background-color:yellow;
+	
+	
+}
+
+
+
+
+
+
+
+
 
 
 section#ricerca{
 	
-	margin-top:200px;
-	
+
+	margin-top: 15% ;
 	
 	
 }
@@ -114,8 +164,8 @@ section#ricerca #campoRicerca
 {
     
     width: 40% ;       
-    padding: 3px 20px 3px 1px;     
-    font-size: 1.2rem;      /* Ingrandisce il testo e il placeholder */
+    padding: 3px 20px 3px 1px; 
+    font-size:150% ;     /* Ingrandisce il testo e il placeholder */
     border: thin solid black; /* Bordo visibile */
     border-radius: 8px;     
     
@@ -130,7 +180,7 @@ section#ricerca #bottCerca{
 	display: inline-block;
 	width:6% ;
 	padding: 3px 2px 3px 2px;
-	font-size: 1.2rem;      /* Ingrandisce il testo e il placeholder */
+	font-size: 150% ;      /* Ingrandisce il testo e il placeholder */
     border: thin solid black; /* Bordo visibile */
     border-radius: 8px;
      cursor: pointer; 
